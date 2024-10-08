@@ -18,7 +18,7 @@ pip install django
 
 pip install -r requirements.txt
 
-python manage.py migrate
+cd moviedb
 
 python manage.py runserver 8080
 
