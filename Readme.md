@@ -1,4 +1,29 @@
+Movies JMDB Django Website
+
+how to use:
+
+Open your CMD
+
+create a Dictionary where you want: you can use mkdir
+
+cd to the Dictionary you maked
+
+git clone https://github.com/xferaxx/movies
+
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install django
+
+pip install -r requirements.txt
+
+python manage.py migrate
+
+python manage.py runserver 8080
 
 
 
-This is Readme file draft Please update it 
+
+
+
