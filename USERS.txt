@@ -5,7 +5,6 @@ password: 12345612
 
 
 
-
 Regular:
 
 username: julian
@@ -13,18 +12,4 @@ password: 123123Kh.
 
 username: xferax
 password: 123456Kh.	
-
-
-
-username: abdullah
-password: 123
-
-username: mosa
-password: 123
-
-username: amirA
-password: Aa123456
-
-username: amirB
-password: Bb123456
 
