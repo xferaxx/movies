@@ -6,7 +6,7 @@ Open your CMD
 
 create a Dictionary where you want: you can use mkdir
 
-cd to the Dictionary you maked
+cd to the New Dictionary you created
 
 git clone https://github.com/xferaxx/movies
 
