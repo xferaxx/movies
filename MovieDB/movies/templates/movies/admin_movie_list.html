@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Manage Movies{% endblock %}
+
+{% block content %}
+<h1>Manage Movies</h1>
+
+<div class="movie-grid">
+    {% for movie in movies %}
+    <div class="movie-item">
+        <img src="{{ movie.poster.url }}" alt="{{ movie.title }}" style="width: 150px; height: 220px;">
+        <p>{{ movie.title }}</p>
+        <a href="{% url 'delete_movie_admin' movie.id %}" class="btn delete-btn" onclick="return confirmDeleteMovie();">Delete</a>
+    </div>
+    {% empty %}
+    <p>No movies available.</p>
+    {% endfor %}
+</div>
+{% endblock %}
+
+<script type="text/javascript">
+    function confirmDeleteMovie() {
+        return confirm("Are you sure you want to delete this movie? This action cannot be undone.");
+    }
+
+</script>

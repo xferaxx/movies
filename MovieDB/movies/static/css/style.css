@@ -1,0 +1,578 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* Dark background */
+    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Aligns items to the left and right */
+    align-items: center; /* Vertically centers items */
+    padding: 20px;
+    background-color: #222; /* Dark background for the header */
+}
+
+header .logo {
+    font-size: 2em;
+    color: #fff; /* White logo text */
+}
+
+header nav ul {
+    list-style-type: none; /* Removes bullets from list */
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline; /* Makes list items inline */
+    margin: 0 15px; /* Adds space between items */
+}
+
+header nav ul li a {
+    color: #fff; /* White link text */
+    text-decoration: none; /* Removes underline from links */
+}
+
+header nav ul li a:hover {
+    color: red; /* Changes link color on hover */
+}
+
+footer {
+    margin-top: 50px;
+    color: #555; /* Lighter gray text for the footer */
+}
+
+/* Movie Grid */
+.movie-grid {
+    display: flex;
+    justify-content: center; /* Centers movie items */
+    flex-wrap: wrap; /* Allows items to wrap to next row */
+    padding: 40px 0;
+}
+
+.movie-item {
+    margin: 20px; /* Space around each movie item */
+}
+
+.movie-item p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Add New Movie Button */
+.add-movie-link {
+    margin-top: 20px;
+    display: inline-block;
+    color: red; /* Red button color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.add-movie-link:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Edit Movie Button */
+.edit-movie-link {
+    margin-top: 20px;
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.edit-movie-link:hover {
+    text-decoration: underline;
+}
+
+.movie-item img {
+    width: 200px; /* Set movie poster width */
+    height: 300px; /* Set movie poster height */
+    object-fit: full; /* Maintains image aspect ratio */
+    border-radius: 10px; /* Rounded corners for the poster */
+    transition: transform 0.3s; /* Smooth zoom animation on hover */
+}
+
+.movie-item img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Blue background */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    cursor: pointer;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 0 auto; /* Centers the form */
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #000; /* Black text for the form */
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%; /* Full width for input fields */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000; /* Black input text */
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #000; /* Black label text */
+}
+
+/* Submit Button Styles */
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745; /* Green background */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Reviews Section */
+.reviews-section {
+    margin-top: 10px; /* Adds space at the top */
+}
+
+/* Section Headings */
+h2 {
+    margin-top: 30px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+/* Movie Details Image */
+.movie-detail img {
+    width: 300px; /* Width for the movie detail image */
+    height: 400px;
+    object-fit: fit;
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth zoom effect */
+}
+
+.movie-detail img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* File Input Styles */
+input[type="file"] {
+    padding: 10px;
+    border: 2px solid #007BFF;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Admin Actions */
+.movie-detail {
+    position: relative; /* Ensures the button is positioned relative to this container */
+}
+
+.admin-actions {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+/* Edit/Delete Button Styles */
+.edit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Review Section Styles */
+.review-username {
+    font-size: 18px; /* Makes the username text bigger */
+    color: #007bff; /* Blue color for username */
+    font-weight: bold;
+    position: absolute; /* Position it relative to the review item */
+    top: 10px; /* Adjust the distance from the top */
+    left: 10px; /* Adjust the distance from the right */
+}
+
+/* for admin in review */
+.review-username-admin {
+    font-size: 18px; /* Makes the username text bigger */
+    color: #ffcc00; /* Blue color for username */
+    font-weight: bold;
+    position: absolute; /* Position it relative to the review item */
+    top: 10px; /* Adjust the distance from the top */
+    left: 10px; /* Adjust the distance from the right */
+}
+
+.review-text {
+    font-size: 16px;
+    color: #000; /* Black text */
+    margin-top: 5px;
+}
+
+/* Review Item Styles */
+.review-item {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 20px 0; /* Adds space between reviews */
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    color: #000;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review-item:hover {
+    transform: translateY(-5px); /* Moves the item up slightly on hover */
+}
+
+/* Delete Button Styles */
+.btn.delete-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn.delete-btn:hover {
+    background-color: darkred;
+}
+
+/* Trailer Styles */
+.trailer iframe {
+    width: 100%; /* Full width for trailer video */
+    max-width: 560px;
+    height: 315px;
+    margin: 20px 0;
+}
+
+/* Table for Movie List */
+.movie-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.movie-table th, .movie-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.movie-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.movie-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Tooltip Styling */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 0; /* Aligns with the top of the tooltip container */
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%); /* Centers the tooltip horizontally and moves it directly above */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+
+.tooltip .tooltip-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-transform: uppercase; /* Uppercase title */
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Tooltip Text for Larger Pop-up */
+.tooltip .tooltip-text {
+    width: 250px; /* Increased width for larger pop-up */
+    padding: 12px;
+}
+
+/* Home Page Tooltip */
+.tooltipss {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    display: none;
+    pointer-events: none;
+    z-index: 100;
+    transform: translateX(-50%);
+}
+
+.movie-item:hover .tooltipss {
+    display: block;
+}
+
+/* Welcome Message Styles */
+.welcome-message {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.welcome-message .username {
+    font-weight: bold;
+    color: #ffcc00; /* Gold color for username */
+    padding-left: 5px;
+}
+
+
+
+
+/* Movie Rating Container */
+.movie-rating-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #111;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.movie-rating p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.movie-rating h3 {
+    color: #ffcc00; /* Gold for rating title */
+    margin-bottom: 10px;
+}
+
+/* Rating Form */
+.rating-form {
+    display: flex;
+    justify-content: center; /* Center the form */
+    align-items: center;
+}
+
+.rating-form label {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #000; /* Make the numbers black */
+}
+
+.rating-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Ensure the numbers and radios are horizontally aligned */
+.rating-form label {
+    display: inline-block;
+}
+
+.rating-form .btn {
+    margin-left: 20px; /* Add some space between the numbers and the button */
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.rating-form .btn:hover {
+    background-color: #218838;
+}
+
+/* Log in link for unauthenticated users */
+.movie-rating p a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+
+/* Hide the radio buttons */
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+/* Style the stars */
+.star-rating label {
+    font-size: 2em; /* Adjust size to your preference */
+    color: #ddd;    /* Unselected stars color */
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+/* Change the color of selected stars */
+.star-rating input[type="radio"]:checked ~ label {
+    color: gold;
+}
+
+/* Change color of stars on hover */
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: gold;
+}
+
+/* Ensure correct hover behavior (stars to the left of hovered star also change) */
+.star-rating label + input:checked ~ label {
+    color: gold;
+}
+
+/* Style the stars */
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the direction of the stars */
+    justify-content: center; /* Center-align the stars */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.6); /* Black background with transparency */
+}
+
+/* Modal content box */
+.modal-content {
+    background-color: grey;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Close button (x) */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: gray;
+    color: white;
+}
+
+
+/* Close button for user Reviews (x) */
+.closes {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closes:hover,
+.closes:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

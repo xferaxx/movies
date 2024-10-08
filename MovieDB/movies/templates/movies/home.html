@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - JMDB: Julian's Movie Database{% endblock %}
+
+{% block content %}
+<!-- it is the grid for the home page -->
+<h2>Top Movies</h2>
+<div class="movie-grid">
+    {% for movie in movies %}
+    <div class="movie-item">
+        <a href="{% url 'movie_detail' movie.id %}">
+            <img src="{{ movie.poster.url }}" alt="{{ movie.title }}">
+        </a>
+        <div class="tooltipss">{{ movie.title }}</div> <!-- Tooltip for each movie -->
+    </div>
+    {% endfor %}
+</div>
+
+<!-- add new movie and admin panel buttons (it will show only for admin) -->
+{% if user.is_staff %}
+<a href="{% url 'add_movie' %}" class="add-movie-link">Add New Movie</a>
+<br><br>
+<a href="{% url 'admin_movie_list' %}" class="edit-movie-link">Admin Panel</a>
+{% endif %}
+{% endblock %}

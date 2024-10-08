@@ -1,0 +1,16 @@
+<!-- templates/movies/edit_review.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Edit Review{% endblock %}
+
+{% block content %}
+<h1>Edit Review</h1>
+<!-- this to edit the review for users (each user and his reviews) -->
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn">Save Changes</button>
+    <a href="{% url 'movie_detail' review.movie.id %}" class="btn">Cancel</a>
+</form>
+{% endblock %}
