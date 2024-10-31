@@ -13,7 +13,7 @@ git clone https://github.com/xferaxx/movies
 
 docker build --tag moviesdb:1.0 .
 
-docker run -p8080:8080  moviesdb:1.0
+docker run -p8000:8000 moviesdb:1.0
 
 
 
