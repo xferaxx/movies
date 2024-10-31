@@ -1,0 +1,43 @@
+services:
+  db:
+    container_name: mysql-container
+    image: mysql:8.0
+    restart: always
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    volumes:
+      - ./mysql:/var/lib/mysql_01
+    env_file:
+      - .env
+    environment:
+      - MYSQL_ROOT_PASSWORD=${SQL_ROOT_PASSWORD}
+      - MYSQL_USER=${SQL_USER}
+      - MYSQL_PASSWORD=${SQL_PASSWORD}
+      - MYSQL_DATABASE=${SQL_DATABASE}
+    ports:
+      - 3306:3306
+    healthcheck:
+      test: ["CMD-SHELL", "exit | mysql -h localhost -P 3306 -u root -p$$MYSQL_ROOT_PASSWORD" ]
+      interval: 5s
+      timeout: 20s
+      retries: 30
+
+  djangoproj:
+    container_name: django-container
+    build: 
+      context: .
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - SQL_ROOT_PASSWORD=${SQL_ROOT_PASSWORD}
+      - SQL_USER=${SQL_USER}
+      - SQL_PASSWORD=${SQL_PASSWORD}
+      - SQL_DATABASE=${SQL_DATABASE}
+      - SQL_HOST=${SQL_HOST}
+      - SQL_ENGINE=${SQL_ENGINE}
+      - SQL_PORT=${SQL_PORT}  
+    ports:
+      - 8000:8000
+
+
+      

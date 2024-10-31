@@ -1,0 +1,849 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "movies",
+        "description": "movies",
+        "isExtraImport": true,
+        "detail": "movies",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "staff_member_required",
+        "importPath": "django.contrib.admin.views.decorators",
+        "description": "django.contrib.admin.views.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.admin.views.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Avg",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseForbidden",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "user_passes_test",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "MovieDB.asgi",
+        "description": "MovieDB.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "MovieDB.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-jtucf-j^__#+(03n0_&h&3tx87-4lquunk7p2n0i=qr+f*40gh'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-jtucf-j^__#+(03n0_&h&3tx87-4lquunk7p2n0i=qr+f*40gh'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'movies',  # Add the movies app here",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'movies',  # Add the movies app here\n]\nMIDDLEWARE = [",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'MovieDB.urls'",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "ROOT_URLCONF = 'MovieDB.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'MovieDB.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nLOGIN_REDIRECT_URL = '/'",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'  # Ensure this points to the correct login URL name.",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'  # Ensure this points to the correct login URL name.",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'  # Ensure this points to the correct login URL name.",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'  # Ensure this points to the correct login URL name.",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'  # Ensure this points to the correct login URL name.",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = 'home'\nLOGIN_URL = 'login'  # Ensure this points to the correct login URL name.",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "MovieDB.settings",
+        "description": "MovieDB.settings",
+        "peekOfCode": "LOGIN_URL = 'login'  # Ensure this points to the correct login URL name.",
+        "detail": "MovieDB.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "MovieDB.urls",
+        "description": "MovieDB.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('movies.urls')),\n    path('signup/', movie_views.signup, name='signup'),\n    path('login/', auth_views.LoginView.as_view(template_name='registration/login.html'), name='login'),\n    path('logout/', auth_views.LogoutView.as_view(next_page='home'), name='logout'),\n]\n# Serve media files during development\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "MovieDB.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "MovieDB.wsgi",
+        "description": "MovieDB.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "MovieDB.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "movies.migrations.0001_initial",
+        "description": "movies.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Movie',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "movies.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "movies.migrations.0002_movie_trailer_url_alter_movie_year_of_release",
+        "description": "movies.migrations.0002_movie_trailer_url_alter_movie_year_of_release",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('movies', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='movie',\n            name='trailer_url',\n            field=models.URLField(blank=True, max_length=500, null=True),\n        ),",
+        "detail": "movies.migrations.0002_movie_trailer_url_alter_movie_year_of_release",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "movies.migrations.0003_movie_rating_rating",
+        "description": "movies.migrations.0003_movie_rating_rating",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('movies', '0002_movie_trailer_url_alter_movie_year_of_release'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='movie',\n            name='rating',\n            field=models.FloatField(default=0.0),",
+        "detail": "movies.migrations.0003_movie_rating_rating",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "movies.migrations.0004_review_rating",
+        "description": "movies.migrations.0004_review_rating",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('movies', '0003_movie_rating_rating'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='review',\n            name='rating',\n            field=models.IntegerField(blank=True, null=True),\n        ),",
+        "detail": "movies.migrations.0004_review_rating",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "movies.migrations.0005_alter_rating_unique_together",
+        "description": "movies.migrations.0005_alter_rating_unique_together",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('movies', '0004_review_rating'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AlterUniqueTogether(\n            name='rating',\n            unique_together={('movie', 'user', 'rating')},\n        ),",
+        "detail": "movies.migrations.0005_alter_rating_unique_together",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "movies.migrations.0006_remove_review_rating_alter_rating_unique_together",
+        "description": "movies.migrations.0006_remove_review_rating_alter_rating_unique_together",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('movies', '0005_alter_rating_unique_together'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='review',\n            name='rating',\n        ),",
+        "detail": "movies.migrations.0006_remove_review_rating_alter_rating_unique_together",
+        "documentation": {}
+    },
+    {
+        "label": "MovieAdmin",
+        "kind": 6,
+        "importPath": "movies.admin",
+        "description": "movies.admin",
+        "peekOfCode": "class MovieAdmin(admin.ModelAdmin):\n    list_display = ('title', 'year_of_release', 'director')\nadmin.site.register(Movie, MovieAdmin)\nadmin.site.register(Review)",
+        "detail": "movies.admin",
+        "documentation": {}
+    },
+    {
+        "label": "MoviesConfig",
+        "kind": 6,
+        "importPath": "movies.apps",
+        "description": "movies.apps",
+        "peekOfCode": "class MoviesConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'movies'",
+        "detail": "movies.apps",
+        "documentation": {}
+    },
+    {
+        "label": "MovieForm",
+        "kind": 6,
+        "importPath": "movies.forms",
+        "description": "movies.forms",
+        "peekOfCode": "class MovieForm(forms.ModelForm):\n    class Meta:\n        model = Movie\n        fields = ['title', 'description', 'director', 'main_actors', 'year_of_release', 'poster', 'trailer_url']\nclass ReviewForm(forms.ModelForm):\n    class Meta:\n        model = Review\n        fields = ['review_text']\nclass RatingForm(forms.ModelForm):\n    class Meta:",
+        "detail": "movies.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewForm",
+        "kind": 6,
+        "importPath": "movies.forms",
+        "description": "movies.forms",
+        "peekOfCode": "class ReviewForm(forms.ModelForm):\n    class Meta:\n        model = Review\n        fields = ['review_text']\nclass RatingForm(forms.ModelForm):\n    class Meta:\n        model = Rating\n        fields = ['rating']\n        widgets = {\n            'rating': forms.RadioSelect(choices=[(i, i) for i in range(1, 6)]),  # 1 to 5 stars",
+        "detail": "movies.forms",
+        "documentation": {}
+    },
+    {
+        "label": "RatingForm",
+        "kind": 6,
+        "importPath": "movies.forms",
+        "description": "movies.forms",
+        "peekOfCode": "class RatingForm(forms.ModelForm):\n    class Meta:\n        model = Rating\n        fields = ['rating']\n        widgets = {\n            'rating': forms.RadioSelect(choices=[(i, i) for i in range(1, 6)]),  # 1 to 5 stars\n        }",
+        "detail": "movies.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Movie",
+        "kind": 6,
+        "importPath": "movies.models",
+        "description": "movies.models",
+        "peekOfCode": "class Movie(models.Model):\n    title = models.CharField(max_length=200)\n    description = models.TextField()\n    director = models.CharField(max_length=100)\n    main_actors = models.CharField(max_length=255)  # Store as comma-separated list\n    year_of_release = models.CharField(max_length=4)\n    poster = models.ImageField(upload_to='posters/')\n    trailer_url = models.URLField(max_length=500, blank=True, null=True)  # New field\n    # New field for average rating\n    rating = models.FloatField(default=0.0)",
+        "detail": "movies.models",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "kind": 6,
+        "importPath": "movies.models",
+        "description": "movies.models",
+        "peekOfCode": "class Review(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    movie = models.ForeignKey(Movie, related_name='reviews', on_delete=models.CASCADE)\n    review_text = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f'Review by {self.user.username} for {self.movie.title}'\nclass Rating(models.Model):\n    movie = models.ForeignKey(Movie, on_delete=models.CASCADE, related_name=\"ratings\")\n    user = models.ForeignKey(User, on_delete=models.CASCADE)",
+        "detail": "movies.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rating",
+        "kind": 6,
+        "importPath": "movies.models",
+        "description": "movies.models",
+        "peekOfCode": "class Rating(models.Model):\n    movie = models.ForeignKey(Movie, on_delete=models.CASCADE, related_name=\"ratings\")\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    rating = models.IntegerField()  # Rating from 1 to 5\n    class Meta:\n        unique_together = ('movie', 'user')  # One rating per user per movie",
+        "detail": "movies.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "movies.urls",
+        "description": "movies.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.home, name='home'),  # Home page (movies list)\n    path('movies/<int:movie_id>/', views.movie_detail, name='movie_detail'),\n    path('movies/<int:movie_id>/delete/', views.delete_movie, name='delete_movie'),\n    path('movies/<int:movie_id>/review/', views.add_review, name='add_review'),\n    path('reviews/<int:review_id>/edit/', views.edit_review, name='edit_review'),\n    path('reviews/<int:review_id>/delete/', views.delete_review, name='delete_review'),\n    path('add_movie/', views.add_movie, name='add_movie'),  # New route for adding a movie\n    path('login/', auth_views.LoginView.as_view(template_name='registration/login.html'), name='login'),\n    path('logout/', views.logout_view, name='logout'),  # Corrected logout path and redirect",
+        "detail": "movies.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "movies.views",
+        "description": "movies.views",
+        "peekOfCode": "def home(request):\n    movies = Movie.objects.all()  # Retrieve all movies from the database\n    return render(request, 'movies/home.html', {'movies': movies})\n# Movie detail view to display information about a selected movie\ndef movie_detail(request, movie_id):\n    movie = get_object_or_404(Movie, id=movie_id)\n    # Handle POST request for submitting a rating\n    if request.method == 'POST':\n        form = RatingForm(request.POST)\n        if form.is_valid():",
+        "detail": "movies.views",
+        "documentation": {}
+    },
+    {
+        "label": "movie_detail",
+        "kind": 2,
+        "importPath": "movies.views",
+        "description": "movies.views",
+        "peekOfCode": "def movie_detail(request, movie_id):\n    movie = get_object_or_404(Movie, id=movie_id)\n    # Handle POST request for submitting a rating\n    if request.method == 'POST':\n        form = RatingForm(request.POST)\n        if form.is_valid():\n            rating_value = form.cleaned_data['rating']\n            # Ensure the user is authenticated before rating\n            if request.user.is_authenticated:\n                # Check if the user has already rated the movie",
+        "detail": "movies.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_view",
+        "kind": 2,
+        "importPath": "movies.views",
+        "description": "movies.views",
+        "peekOfCode": "def logout_view(request):\n    logout(request)\n    return redirect('home')\n@staff_member_required\ndef add_movie(request):\n    if request.method == 'POST':\n        form = MovieForm(request.POST, request.FILES)\n        if form.is_valid():\n            form.save()\n            return redirect('home')  # Redirect to the home page after successful movie creation",
+        "detail": "movies.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_movie",
+        "kind": 2,
+        "importPath": "movies.views",
+        "description": "movies.views",
+        "peekOfCode": "def add_movie(request):\n    if request.method == 'POST':\n        form = MovieForm(request.POST, request.FILES)\n        if form.is_valid():\n            form.save()\n            return redirect('home')  # Redirect to the home page after successful movie creation\n    else:\n        form = MovieForm()\n    return render(request, 'movies/add_movie.html', {'form': form})\n# This function ensures only admin users can access the delete view",
+        "detail": "movies.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_movie",
+        "kind": 2,
+        "importPath": "movies.views",
+        "description": "movies.views",
+        "peekOfCode": "def delete_movie(request, movie_id):\n    movie = get_object_or_404(Movie, id=movie_id)\n    movie.delete()\n    return redirect(reverse('home'))\n@login_required\ndef add_review(request, movie_id):\n    movie = get_object_or_404(Movie, id=movie_id)\n    if request.method == \"POST\":\n        form = ReviewForm(request.POST)\n        if form.is_valid():",
+        "detail": "movies.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_review",
+        "kind": 2,
+        "importPath": "movies.views",
+        "description": "movies.views",
+        "peekOfCode": "def add_review(request, movie_id):\n    movie = get_object_or_404(Movie, id=movie_id)\n    if request.method == \"POST\":\n        form = ReviewForm(request.POST)\n        if form.is_valid():\n            review = form.save(commit=False)\n            review.user = request.user\n            review.movie = movie\n            review.save()\n            return redirect('movie_detail', movie_id=movie_id)",
+        "detail": "movies.views",
+        "documentation": {}
+    },
+    {
+        "label": "signup",
+        "kind": 2,
+        "importPath": "movies.views",
+        "description": "movies.views",
+        "peekOfCode": "def signup(request):\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            user = form.save()\n            auth_login(request, user)\n            return redirect('home')\n    else:\n        form = UserCreationForm()\n    return render(request, 'registration/signup.html', {'form': form})",
+        "detail": "movies.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_review",
+        "kind": 2,
+        "importPath": "movies.views",
+        "description": "movies.views",
+        "peekOfCode": "def delete_review(request, review_id):\n    review = get_object_or_404(Review, id=review_id)\n    # Allow deletion if the review belongs to the logged-in user or if the user is an admin\n    if review.user != request.user and not request.user.is_staff:\n        return HttpResponseForbidden(\"You are not allowed to delete this review.\")\n    # Proceed with deletion if the conditions are met\n    review.delete()\n    return redirect('movie_detail', movie_id=review.movie.id)\ndef edit_review(request, review_id):\n    review = get_object_or_404(Review, id=review_id)",
+        "detail": "movies.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_review",
+        "kind": 2,
+        "importPath": "movies.views",
+        "description": "movies.views",
+        "peekOfCode": "def edit_review(request, review_id):\n    review = get_object_or_404(Review, id=review_id)\n    # Allow editing if the review belongs to the logged-in user or if the user is an admin\n    if review.user != request.user and not request.user.is_staff:\n        return HttpResponseForbidden(\"You are not allowed to edit this review.\")\n    # Handle the form and edit process\n    if request.method == 'POST':\n        form = ReviewForm(request.POST, instance=review)\n        if form.is_valid():\n            form.save()",
+        "detail": "movies.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_movie_list",
+        "kind": 2,
+        "importPath": "movies.views",
+        "description": "movies.views",
+        "peekOfCode": "def admin_movie_list(request):\n    movies = Movie.objects.all()  # Get all movies\n    return render(request, 'movies/admin_movie_list.html', {'movies': movies})\n@staff_member_required\ndef delete_movie_admin(request, movie_id):\n    movie = get_object_or_404(Movie, id=movie_id)\n    movie.delete()\n    return redirect('admin_movie_list')",
+        "detail": "movies.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_movie_admin",
+        "kind": 2,
+        "importPath": "movies.views",
+        "description": "movies.views",
+        "peekOfCode": "def delete_movie_admin(request, movie_id):\n    movie = get_object_or_404(Movie, id=movie_id)\n    movie.delete()\n    return redirect('admin_movie_list')",
+        "detail": "movies.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MovieDB.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
