@@ -13,7 +13,7 @@ and type:
 
 3) docker compose up --build
 
-  *wait up to 30 sec until the containers are running
+wait up to 30 sec until the containers are running
 
 4) open your browser and go to localhost:8000
 
