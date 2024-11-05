@@ -2,19 +2,19 @@ Movies JMDB Django Website
 
 how to use:
 
+go to a place where you want to clone the project 
+
 Open your CMD
+and type:
 
-create a Dictionary where you want: you can use mkdir
+1) git clone https://github.com/xferaxx/movies
 
-cd to the New Dictionary you created
+2) cd movies
 
-git clone https://github.com/xferaxx/movies
+3) docker compose up --build
 
+**wait up to 30 sec until the containers are running
 
-docker build --tag moviesdb:1.0 .
-
-docker run -p8000:8000 moviesdb:1.0
-
-
+4) open your browser and go to localhost:8000
 
 
