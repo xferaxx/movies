@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN apt-get update
 RUN apt-get install -y gcc default-libmysqlclient-dev -y
 RUN pip install -r requirements.txt
-
+RUN dos2unix start_django.sh
 # Copy the project files into the container
 COPY . .
 
