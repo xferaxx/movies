@@ -1,21 +1,28 @@
-# Use the official Python 3.11 slim image
+# Start with the base image
 FROM python:3.11-slim
 
 # Set the working directory
 WORKDIR /app/
 
-# Copy the requirements file
+# Copy the requirements file and install dependencies
 COPY requirements.txt .
 
-# Install dependencies and MySQL client libraries
-RUN apt-get update
-RUN apt-get install -y gcc default-libmysqlclient-dev -y
+# Install necessary system dependencies, including dos2unix
+RUN apt-get update && \
+    apt-get install -y gcc default-libmysqlclient-dev dos2unix && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
 RUN pip install -r requirements.txt
-RUN dos2unix start_django.sh
-# Copy the project files into the container
+
+# Copy the rest of the application
 COPY . .
 
-# Expose the Django application port
+# Convert line endings for start_django.sh to Unix format
+RUN dos2unix start_django.sh
+
+# Expose the application port
 EXPOSE 8000
-# Run the Django development server
-CMD ["sh","start_django.sh"]
+
+# Run the startup script
+CMD ["./start_django.sh"]
