@@ -1,0 +1,7 @@
+# Ignore MySQL data files
+mysql/
+mysql.sock
+*.sock
+
+# Ignore VSCode settings if unnecessary
+.vscode/

@@ -72,16 +72,21 @@ WSGI_APPLICATION = 'MovieDB.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+import os
+
 DATABASES = {
-     "default": {
-        "ENGINE": os.environ.get("SQL_ENGINE", "django.db.backends.sqlite3"),
-        "NAME": os.environ.get("SQL_DATABASE", os.path.join(BASE_DIR, 'db.sqlite3')),
-        "USER": os.environ.get("SQL_USER", "myuser"),
-        "PASSWORD": os.environ.get("SQL_PASSWORD", "myuserpassword"),
-        "HOST": os.environ.get("SQL_HOST", "localhost"),
-        "PORT": os.environ.get("SQL_PORT", "3306"),
+    'default': {
+        'ENGINE': os.getenv('SQL_ENGINE', 'django.db.backends.sqlite3'),
+        'NAME': os.getenv('SQL_DATABASE', os.path.join(BASE_DIR, 'db.sqllite3')),
+        'USER': os.getenv('SQL_USER', 'moviesusr'),
+        'PASSWORD': os.getenv('SQL_PASSWORD', 'moviespass'),
+        'HOST': os.getenv('SQL_HOST', 'localhost'),  # Use 'db' as it matches the name of the database service in docker-compose
+        'PORT': os.getenv('SQL_PORT', '3306'),
     }
 }
+
+
+
 print(DATABASES)
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators

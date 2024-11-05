@@ -464,7 +464,7 @@
         "kind": 5,
         "importPath": "MovieDB.MovieDB.settings",
         "description": "MovieDB.MovieDB.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'MovieDB.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n     \"default\": {\n        \"ENGINE\": os.environ.get(\"SQL_ENGINE\", \"django.db.backends.sqlite3\"),\n        \"NAME\": os.environ.get(\"SQL_DATABASE\", os.path.join(BASE_DIR, 'db.sqlite3')),\n        \"USER\": os.environ.get(\"SQL_USER\", \"myuser\"),\n        \"PASSWORD\": os.environ.get(\"SQL_PASSWORD\", \"myuserpassword\"),\n        \"HOST\": os.environ.get(\"SQL_HOST\", \"localhost\"),",
+        "peekOfCode": "WSGI_APPLICATION = 'MovieDB.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nimport os\nDATABASES = {\n    'default': {\n        'ENGINE': os.getenv('SQL_ENGINE', 'django.db.backends.sqlite3'),\n        'NAME': os.getenv('SQL_DATABASE', os.path.join(BASE_DIR, 'db.sqllite3')),\n        'USER': os.getenv('SQL_USER', 'moviesusr'),\n        'PASSWORD': os.getenv('SQL_PASSWORD', 'moviespass'),",
         "detail": "MovieDB.MovieDB.settings",
         "documentation": {}
     },
@@ -473,7 +473,7 @@
         "kind": 5,
         "importPath": "MovieDB.MovieDB.settings",
         "description": "MovieDB.MovieDB.settings",
-        "peekOfCode": "DATABASES = {\n     \"default\": {\n        \"ENGINE\": os.environ.get(\"SQL_ENGINE\", \"django.db.backends.sqlite3\"),\n        \"NAME\": os.environ.get(\"SQL_DATABASE\", os.path.join(BASE_DIR, 'db.sqlite3')),\n        \"USER\": os.environ.get(\"SQL_USER\", \"myuser\"),\n        \"PASSWORD\": os.environ.get(\"SQL_PASSWORD\", \"myuserpassword\"),\n        \"HOST\": os.environ.get(\"SQL_HOST\", \"localhost\"),\n        \"PORT\": os.environ.get(\"SQL_PORT\", \"3306\"),\n    }\n}",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': os.getenv('SQL_ENGINE', 'django.db.backends.sqlite3'),\n        'NAME': os.getenv('SQL_DATABASE', os.path.join(BASE_DIR, 'db.sqllite3')),\n        'USER': os.getenv('SQL_USER', 'moviesusr'),\n        'PASSWORD': os.getenv('SQL_PASSWORD', 'moviespass'),\n        'HOST': os.getenv('SQL_HOST', 'localhost'),  # Use 'db' as it matches the name of the database service in docker-compose\n        'PORT': os.getenv('SQL_PORT', '3306'),\n    }\n}",
         "detail": "MovieDB.MovieDB.settings",
         "documentation": {}
     },

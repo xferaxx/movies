@@ -1,10 +1,21 @@
+# Use the official Python 3.11 slim image
 FROM python:3.11-slim
-WORKDIR /app/
-COPY requirements.txt .
-RUN apt-get update
-RUN apt-get install gcc default-libmysqlclient-dev -y
-RUN pip install -r requirements.txt
-COPY . .
-EXPOSE 8000
-CMD ["python", "MovieDB/manage.py", "runserver","0.0.0.0:8000"] 
 
+# Set the working directory
+WORKDIR /app/
+
+# Copy the requirements file
+COPY requirements.txt .
+
+# Install dependencies and MySQL client libraries
+RUN apt-get update
+RUN apt-get install -y gcc default-libmysqlclient-dev -y
+RUN pip install -r requirements.txt
+
+# Copy the project files into the container
+COPY . .
+
+# Expose the Django application port
+EXPOSE 8000
+# Run the Django development server
+CMD ["sh","start_django.sh"]
